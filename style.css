@@ -74,7 +74,7 @@ main .background {
     background-repeat: no-repeat;
 }
 
-.card {
+.education-card {
     background-color: #f2f2f2;
     border: none;
     border-radius: 10px;
@@ -102,4 +102,26 @@ footer p {
 
 .margin-top-210 {
     margin-top: 210px;
+}
+
+@media only screen and (max-width: 991px) {
+    #main-img {
+        margin-top: 30px;
+    }
+
+    .background .container .row {
+        margin-top: 0;
+    }
+
+    nav .nav-link {
+        padding: 5px 0 !important;
+    }
+
+    nav .nav-link:hover {
+        background-color: transparent;
+    }
+    
+    nav .nav-link.active {
+        background-color: transparent;
+    }
 }

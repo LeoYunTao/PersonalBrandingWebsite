@@ -10,7 +10,7 @@
 let homeActive = "";
 let projectActive = "";
 
-if (window.location.pathname == "/") {
+if (window.location.pathname == "/PersonalBrandingWebsite") {
     homeActive = "active";
 } else {
     projectActive = "active"
@@ -19,13 +19,13 @@ if (window.location.pathname == "/") {
 let navigationUI = `
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="/"><img src="img/profile.jfif" class="rounded-circle" width="52" height="52" alt="Profile Picture"></a>
+          <a class="navbar-brand" href="/PersonalBrandingWebsite"><img src="img/profile.jfif" class="rounded-circle" width="52" height="52" alt="Profile Picture"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-                <a class="nav-link ${homeActive}" aria-current="page" href="/">Home</a>
+                <a class="nav-link ${homeActive}" aria-current="page" href="/PersonalBrandingWebsite">Home</a>
                 <div class="dropdown">
                     <a class="nav-link ${projectActive} href="#" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Projects<img src="img/expand_more_icon.svg" width="16"></a>
                     <ul class="dropdown-menu">

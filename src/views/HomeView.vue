@@ -210,19 +210,19 @@
     const skillList = ref([
         {
             name: "UI/UX Design",
-            imgTag: '<img src="/src/assets/img/undraw_design_team_af2y 1.svg" height="200" class="img-fluid" alt="">',
+            imgTag: '<img src="/PersonalBrandingWebsite/src/assets/img/undraw_design_team_af2y 1.svg" height="200" class="img-fluid" alt="">',
         },
         {
             name: "Web Development",
-            imgTag: '<img src="/src/assets/img/Group 44.svg" class="img-fluid" style="margin-top: 20px;" alt="">',
+            imgTag: '<img src="/PersonalBrandingWebsite/src/assets/img/Group 44.svg" class="img-fluid" style="margin-top: 20px;" alt="">',
         },
         {
             name: "Mobile App Development",
-            imgTag: '<img src="/src/assets/img/undraw_mobile_login_re_9ntv.svg" class="img-fluid" style="margin-top: 20px;"alt="">',
+            imgTag: '<img src="/PersonalBrandingWebsite/src/assets/img/undraw_mobile_login_re_9ntv.svg" class="img-fluid" style="margin-top: 20px;"alt="">',
         },
         {
             name: "Applied Analytics",
-            imgTag: '<img src="/src/assets/img/undraw_predictive_analytics_re_wxt8.svg" width="175" class="img-fluid" style="margin-top: 20px;" alt="">',
+            imgTag: '<img src="/PersonalBrandingWebsite/src/assets/img/undraw_predictive_analytics_re_wxt8.svg" width="175" class="img-fluid" style="margin-top: 20px;" alt="">',
         },
     ]);
 </script>
